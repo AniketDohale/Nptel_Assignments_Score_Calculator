@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flask App</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<body>
+    <div class="container">
+        <h1>Nptel Assignments Marks</h1>
+
+        <div class="card">
+            <form method="POST">
+                <label for="text_input">Enter Subject Marks:</label><br>
+                <textarea id="text_input" name="text_input" rows="10" cols="50"></textarea><br><br>
+                <input type="text" id="digit_input" name="digit_input" placeholder="Best of:"><br><br>
+                
+                <input type="submit" value="Submit">
+            </form>
+
+
+            {% if score is not none %}
+            <h4 class="best-of_Score">Best of {{score_list}}</h4>
+            <span class="result-label">Result: </span>
+            <h2 class="result-score">{{ score }}</h2>
+            {% endif %}
+        </div>
+    </div>
+</body>
+</html>

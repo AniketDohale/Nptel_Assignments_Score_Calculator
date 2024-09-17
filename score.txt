@@ -1,0 +1,12 @@
+Week 1 : Assignment 1:	  85.0
+Week 2 : Assignment 2:	  71.0
+Week 3 : Assignment 3:	  80.0
+Week 4 : Assignment 4:	  100.0
+Week 5 : Assignment 5:	  100.0
+Week 6 : Assignment 6:	  86.0
+Week 7 : Assignment 7:	  100.0
+Week 8 : Assignment 8:	  85.0
+Week 9 : Assignment 9:	  80.0
+Week 10 : Assignment 10:	  90.0
+Week 11 : Assignment 11:	  100.0
+Week 12 : Assignment 12:	  80.0
